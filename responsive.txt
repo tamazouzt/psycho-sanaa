@@ -1,0 +1,26 @@
+ service 750 qui 1150 nav 990 home 1300 contact 490 
+
+@media only screen and (max-width: 990px) {
+    .nav nav a {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .nav img {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .nav nav a {
+        font-size: 100%;
+        margin-left: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .nav {
+        padding-right: 0;
+        margin-right: 1px;
+    }
+    .nav nav {
+        margin-right: 1%;
+    }
